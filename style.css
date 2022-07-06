@@ -22,21 +22,69 @@ body{
     top: 42%;
     left: 50px;
 }
-#banner-button{
+.orange-button{
     background-color: #FF5959;
     color: white;
     text-decoration: none;
     font-size: 23px;
-    padding: 20px;
+    padding: 15px;
     position: absolute;
+    border-radius: 10px;
+}
+#banner-button{    
     top: 60%;
     left: 43%;
-    border-radius: 15px;
+}
+#donate-count-button{
+    top: 185%;
+    left: 44%;
+    border-bottom: 20px;
 }
 .donate-count-div{
-    padding: 55px;
+    padding: 56px;
+    margin-bottom: 10%;
 }
 .donate-count-div h1{
     padding-left: 37%;
     font-size: 50px;
 }
+.donate-count-div p{
+    text-align: center;
+}
+.count-box{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box{
+    background-color: #FAFAFA;
+    color: #707070;
+    font-size: 20px;
+    font-weight: 700;
+    width: 45px;
+    border: none;
+    padding: 50px;
+    margin: 20px;
+}
+.active{
+    background-color: #FFEEEE;
+    color: #FF5959;
+    border: 3px solid #FF5959;
+}
+.donate-count-div input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom: 2px solid #B3B3B3;
+    color: #B3B3B3;
+    text-align: center;
+    width: 58%;
+    margin-left: 18%;
+    padding: 40px;
+    font-size: 20px;
+}
+.no-outline:focus {
+    outline: none;
+  }
