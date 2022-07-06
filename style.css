@@ -131,3 +131,60 @@ body{
 .plan-box-text{
     font-size: 15px;
 }
+
+/* Get My Updates Section*/
+.get-updates{
+    margin-top: 10%;
+}
+.get-updates h1{
+    padding-left: 37%;
+    font-size: 50px;
+}
+#get-updates-text{
+    text-align: center;
+}
+.get-updates input{
+    background-color: #D9D9D9;
+    color: #AA9F9F;
+    font-size: 17px;
+    width: 55%;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+}
+#submit{
+    background-color: #FF5959;
+    color: white;
+    font-size: 17px;
+    width: 30%;
+}
+.get-updates form{
+    display: flex;
+    margin-left: 78px;
+}
+
+.get-update-div{
+    background-color: #FFF4D6;
+    width: 40%;
+    height: 40px;
+    margin-left: 24%;
+    padding: 101px;
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+footer{
+    background-color: black;
+    height: 188px;
+    font-family: 'Lobster', cursive;
+}
+footer h3{
+    text-align: center;
+    color: #FF5959;
+    padding-top: 30px;
+    font-size: 40px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    padding-bottom: 7px;
+}
