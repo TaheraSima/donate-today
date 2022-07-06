@@ -40,25 +40,24 @@ body{
     left: 44%;
     border-bottom: 20px;
 }
-.donate-count-div{
+.donate-count{
     padding: 56px;
     margin-bottom: 10%;
 }
-.donate-count-div h1{
+.donate-count h1{
     padding-left: 37%;
     font-size: 50px;
 }
-.donate-count-div p{
+.donate-count p{
     text-align: center;
 }
-.count-box{
-    display: flex;
+.count-box-div{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
 }
-.box{
+.count-box{
     background-color: #FAFAFA;
     color: #707070;
     font-size: 20px;
@@ -73,7 +72,7 @@ body{
     color: #FF5959;
     border: 3px solid #FF5959;
 }
-.donate-count-div input{
+.donate-count input{
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
@@ -88,3 +87,47 @@ body{
 .no-outline:focus {
     outline: none;
   }
+
+/* Donate Plan Section */
+.donate-plan{
+    margin-top: 50px;
+    margin-bottom: 57px;
+}
+.donate-plan h1{
+    padding-left: 37%;
+    font-size: 50px;
+}
+#plan-text{
+    text-align: center;
+}
+.plan-box-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.plan-box{
+    color: #707070;
+    font-size: 20px;
+    width: 20%;
+    border: none;
+    padding: 50px;
+}
+.box1{
+    background-color: #CAF7F1;
+    margin-right: 17px;
+}
+.box2{
+    background-color: #FAD9F1;
+    margin-right: 17px;
+}
+.box3{
+    background-color: #f4f2cc;
+}
+.plan-box h3{
+    color: black;
+    text-align: left;
+}
+.plan-box-text{
+    font-size: 15px;
+}
