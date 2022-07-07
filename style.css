@@ -53,7 +53,7 @@ body{
     padding: 0 15% 0 15%;
 }
 #donate-count-button{
-    top: 205%;
+    margin-top: 8%;
     left: 44%;
     border-bottom: 20px;
 }
@@ -199,3 +199,41 @@ footer p{
     padding-bottom: 7px;
 }
 /* Thanks Section */
+.thanks-section{
+    display: flex;
+    background-color: #a8d8cc;
+    padding-bottom: 15%;
+}
+.thanks-text{
+    padding: 10%;
+    width: 82%;
+}
+.thanks-text h1{
+    font-size: 40px;
+}
+.thanks-text h4{
+    color: #08ab1e;
+}
+.thanks-text button{
+    padding: 13px;
+    border-radius: 5px;
+    background-color: #08ab1e;
+    margin-top: 20px;
+    width: 50%;
+    color: white;
+    font-weight: 700;
+    font-size: 18px
+    
+}
+.thanks-section img{
+    width:100%;
+    padding-top: 50px;
+}
+.thanks-section a{    
+    /* top: 609%;
+    left: 10%; */
+    margin-top: 40px;
+}
+/* .progress{
+     margin-top: 5%;   
+} */
